@@ -1,0 +1,90 @@
+.left{
+    display: inline-block;
+    position:absolute;
+    left:10px;
+    top:20px;
+}
+.left img{
+    width:115px
+}
+.center{
+    display:block;
+    width: 60%;
+    margin: 34px 215px;
+}
+.right{
+    display:inline-block;
+    position:absolute;
+    right:10px;
+    top:20px;
+}
+#location{
+    width:180px;
+    height:33px;
+    margin:15px;
+    font-size: 20px;
+    color:white;
+    background-color: grey;
+    cursor:pointer;
+    font-family: 'Baloo Bhai';
+}
+.btn{
+    margin:15px;
+    width:80px;
+    height:33px;
+    background-color: grey;
+    color:white;
+    font-size: 20px;
+    cursor:pointer;
+    font-family: 'Baloo Bhai';
+
+}
+.btn:hover{
+    background-color:rgb(161, 160, 160)
+}
+.navbar li{
+    display:inline-block;
+}
+.navbar li a{
+    text-decoration:none;
+    color:white;
+    margin:15px;
+    padding: 25px 25px;
+    font-size: 25px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color:red;
+}
+.container{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 70px 8px;
+    padding: 30px 30px;
+    width: 35%;
+    border-radius: 25px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 30%;
+    height:38px;
+    margin: 28px auto;
+    border-radius: 35px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 433px;
+    padding: 6px;
+    border: 5px solid black;
+    margin: 9px auto;
+    font-size: 23px;
+    border-radius: 36px;
+    font-family: 'Baloo Bhai';
+}
+.form-group-radio{
+    text-align:center;
+}
